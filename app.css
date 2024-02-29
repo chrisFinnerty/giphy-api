@@ -1,0 +1,70 @@
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  body.fadeInAnimation {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+body {
+    background-color: rgb(13, 13, 73);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-left: 15px;
+}
+
+#gifContainer {
+    margin: 50px;
+}
+
+.gifs {
+    margin: 20px;
+    width: 500px;
+    height: 281px;
+    padding: 20px;
+    border: 2px solid gold;
+}
+
+@media (max-width: 1283px) {
+    .gifs {
+        margin: 10px;
+        width: 250px;
+        height: 150px;
+        padding: 10px;
+        border: 2px solid gold;
+    }
+}
+
+@media (max-width: 740px) {
+    .gifs {
+        margin: 10px;
+        width: 250px;
+        height: 150px;
+        padding: 10px;
+        border: 2px solid gold;
+    }
+}
+
